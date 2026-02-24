@@ -1,6 +1,6 @@
 # Revit Door Auto Numbering (pyRevit)
 
-Skrypt do automatycznego numerowania drzwi w Autodesk Revit na podstawie parametru `MED_Door To`.
+Skrypt do automatycznego numerowania drzwi w Autodesk Revit na podstawie parametru `Door To`.
 
 ## Opis
 
@@ -17,7 +17,7 @@ Dodatkowo zapisuje log zmian do pliku CSV (stary numer, nowy numer, ID drzwi, wa
 ## Działanie
 
 1. Pobranie wszystkich drzwi w modelu
-2. Grupowanie po parametrze `MED_Door To`
+2. Grupowanie po parametrze `Door To`
 3. Generowanie sekwencji liter (A, B, C, …, AA, AB…)
 4. Nadanie nowego numeru drzwi
 5. Eksport logu zmian do CSV
